@@ -1,8 +1,8 @@
 {
     "name": "alma/lecabel",
-    "version": "0.0.1",
+    "version": "0.0.2",
     "type": "project",
-    "license": "proprietary",
+    "license": "MIT",
     "minimum-stability": "stable",
     "prefer-stable": true,
     "require": {
@@ -14,9 +14,11 @@
         "symfony/flex": "^2",
         "symfony/framework-bundle": "7.1.*",
         "symfony/runtime": "7.1.*",
-        "symfony/yaml": "7.1.*"
+        "symfony/yaml": "7.1.*",
+        "alma/lecabel-router-bundle": "dev-develop"
     },
     "require-dev": {
+        "symfony/maker-bundle": "^1.61"
     },
     "config": {
         "allow-plugins": {
