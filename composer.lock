@@ -4,8 +4,40 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "9de8e10e3ba274b15e2b867aaaa4d072",
+    "content-hash": "eb3a2ee256497b003c9da8b59b39b006",
     "packages": [
+        {
+            "name": "alma/lecabel-router-bundle",
+            "version": "dev-develop",
+            "dist": {
+                "type": "path",
+                "url": "/home/jerome/www/packagist/lecabel-router",
+                "reference": "9129e847518bf460e69ab4eb757d94150cea5054"
+            },
+            "type": "symfony-bundle",
+            "autoload": {
+                "psr-4": {
+                    "Alma\\LecabelRouterBundle\\": "src/"
+                }
+            },
+            "autoload-dev": {
+                "psr-4": {
+                    "Alma\\LecabelRouterBundle\\Tests\\": "tests/"
+                }
+            },
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Jérôme Benedetti",
+                    "email": "benedetti.jerome@laposte.net"
+                }
+            ],
+            "transport-options": {
+                "relative": false
+            }
+        },
         {
             "name": "psr/cache",
             "version": "3.0.0",
@@ -2720,7 +2752,9 @@
     ],
     "aliases": [],
     "minimum-stability": "stable",
-    "stability-flags": {},
+    "stability-flags": {
+        "alma/lecabel-router-bundle": 20
+    },
     "prefer-stable": true,
     "prefer-lowest": false,
     "platform": {
